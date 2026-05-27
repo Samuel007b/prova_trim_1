@@ -176,7 +176,6 @@ export function mesclarJSONs(textoA, textoB) {
     const objeto2 = JSON.parse(textoB)
     let texto3 = JSON.stringify(objeto1)
     let texto4 = JSON.stringify(objeto2)
-    console.log("Ok 1")
     let item = ""
     for(const letra of texto3){
       if(letra !== '{' && letra !== '}'){
